@@ -1,0 +1,42 @@
+<div th:fragment="header">
+    <header class="main-header sticky">
+        <a href="#menu" class="btn-mobile">
+            <div class="hamburger hamburger--spin" id="hamburger">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </div>
+        </a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <div id="logo">
+                        <h1><a href="/" title="FoodBoard">FoodBoard</a></h1>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-6">
+                    <!-- Menu -->
+                    <nav id="menu" class="main-menu">
+                        <ul>
+                            <li><span><a href="/">Home</a></span></li>
+                            <li>
+                                <span><a href="#">Recipes <i class="fa fa-chevron-down"></i></a></span>
+                                <ul>
+                                    <li>
+                                        <span><a href="/AllRecipes/add">Add your recipes</a></span>
+                                    </li>
+                                    <li>
+                                        <span><a href="/AllRecipes">View all recipes</a></span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><span><a href="/faq">FAQ</a></span></li>
+                            <li><span><a href="/contacts">Contacts</a></span></li>
+                        </ul>
+                    </nav>
+                    <!-- Menu End -->
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
